@@ -1,5 +1,5 @@
-Blockly.Python['sonar_read'] = function(block) {
-Blockly.Python.definitions_['import_sonar'] = 'import sonar';
+Blockly.Python['analog_read'] = function(block) {
+Blockly.Python.definitions_['import_analog'] = 'import analog';
 
   //var dropdown_trig = block.getFieldValue('trig');
   var value_seaLevelhPa = Blockly.Python.valueToCode(block, 'trig', Blockly.Python.ORDER_ATOMIC);

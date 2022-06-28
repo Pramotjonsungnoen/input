@@ -9,7 +9,7 @@
     blocks: [ // Blocks in Category
         {
             xml: `
-                <block type="sonar_read">
+                <block type="analog_read">
                 <value name="trig">
                         <shadow type="math_number">
                             <field name="NUM">32</field>

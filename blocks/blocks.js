@@ -1,7 +1,7 @@
 Blockly.defineBlocksWithJsonArray([
 {
   "type": "analog_read",
-  "message0": "sonar pin: %1 repeat : %2 sort : %3 ",
+  "message0": "sonar pin: %1repeat : %2sort : %3",
   "args0": [
     {
       "type": "input_value",

@@ -18,7 +18,7 @@ Blockly.defineBlocksWithJsonArray([
     }*/
  // ]
  "type": "analog_read",
- "message0": "OLED draw text %1 at (x: %2 , y: %3 )",
+ "message0": "pin %1 repeat %2 sort %3 ",
  "args0": [
    {
      "type": "input_value",

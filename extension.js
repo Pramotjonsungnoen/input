@@ -9,7 +9,7 @@
     blocks: [ // Blocks in Category
         {
             xml: `
-                <block type="adc_ele">
+                <block type="adc">
                     <value name="trig">
                         <shadow type="math_number">
                             <field name="NUM">32</field>

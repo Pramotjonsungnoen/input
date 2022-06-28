@@ -18,7 +18,7 @@ Blockly.defineBlocksWithJsonArray([
     }*/
  // ]
  "type": "analog_read",
- "message0": "pin %1  (repeat: %2  sort %3)",
+ "message0": "analog read pin %1  (Data: %2  Trim: %3)",
  "args0": [
    {
      "type": "input_value",
@@ -26,11 +26,11 @@ Blockly.defineBlocksWithJsonArray([
    },
    {
      "type": "input_value",
-     "name": "ANS"
+     "name": "data"
    },
    {
      "type": "input_value",
-     "name": "sort"
+     "name": "trim"
    }
   ],
   "output": "Number",

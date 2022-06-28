@@ -15,12 +15,12 @@
                             <field name="NUM">32</field>
                         </shadow>
                     </value>
-                    <value name="ANS">
+                    <value name="data">
                         <shadow type="math_number">
                             <field name="NUM">10</field>
                         </shadow>
                     </value>
-                    <value name="sort">
+                    <value name="trim">
                         <shadow type="math_number">
                             <field name="NUM">3</field>
                         </shadow>

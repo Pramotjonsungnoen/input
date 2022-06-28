@@ -6,6 +6,6 @@ Blockly.Python.definitions_['import_adc_ele'] = 'import adc_ele';
   var value_seaLeveltrim = Blockly.Python.valueToCode(block, 'trim', Blockly.Python.ORDER_ATOMIC);
   var value_seaLeveldata = Blockly.Python.valueToCode(block, 'data', Blockly.Python.ORDER_ATOMIC);
   //var code = `Ultrasonic.read(32)`;
-  var code = `adc_ele(${value_seaLevelhPa}),adc_ele(${value_seaLeveltrim}),adc_ele(${value_seaLeveldata})`;
+  var code = `adc_ele(${value_seaLevelhPa},${value_seaLeveldata},${value_seaLeveltrim})`;
   return [code, Blockly.Python.ORDER_NONE];
 };

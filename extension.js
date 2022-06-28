@@ -1,6 +1,6 @@
 ({
     name: "analog electronics", // Category Name
-    description: "Get  distance from  ZX-sonar",
+    description: "Get  distance from  analog-read",
     author: "mazlogyzop",
     category: "Sensors",
     version: "1.0.1",

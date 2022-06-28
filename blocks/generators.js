@@ -1,5 +1,5 @@
 Blockly.Python['adc_ele'] = function(block) {
-Blockly.Python.definitions_['import_analog'] = 'import adc_ele';
+Blockly.Python.definitions_['import_adc_ele'] = 'import adc_ele';
 
   //var dropdown_trig = block.getFieldValue('trig');
   var value_seaLevelhPa = Blockly.Python.valueToCode(block, 'trig', Blockly.Python.ORDER_ATOMIC);

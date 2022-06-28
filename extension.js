@@ -10,17 +10,17 @@
         {
             xml: `
                 <block type="analog_read">
-                <value name="trig">
+                    <value name="trig">
                         <shadow type="math_number">
                             <field name="NUM">32</field>
                         </shadow>
                     </value>
-                <value name="ANS">
+                    <value name="ANS">
                         <shadow type="math_number">
                             <field name="NUM">10</field>
                         </shadow>
                     </value>
-                <value name="sort">
+                    <value name="sort">
                         <shadow type="math_number">
                             <field name="NUM">3</field>
                         </shadow>

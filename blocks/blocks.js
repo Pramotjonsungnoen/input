@@ -18,7 +18,7 @@ Blockly.defineBlocksWithJsonArray([
     }*/
  // ]
  "type": "adc",
- "message0": "analog read pin %1  (Data: %2  Trim: %3)",
+ "message0": "analog read pin %1  (Data: %2  Trim: %3 (%))",
  "args0": [
    {
      "type": "input_value",

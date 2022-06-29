@@ -6,10 +6,13 @@ def read(analog_pin,A,B):
     adc = ADC(Pin(analog_pin))
     adc.atten(ADC.ATTN_11DB)
     adc.width(ADC.WIDTH_12BIT)
-    if A <= B :
-        B = 0
-    if A <= B*2 :
-        B = 0
+    #if A <= B :
+      #  B = 0
+    ##if A <= B*2 :
+        ##B = 0
+    T = A*(B / 100)/2
+    T = int (T)
+    B = T
     try:
         a = []   
         for count in range(A):

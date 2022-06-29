@@ -22,7 +22,7 @@
                     </value>
                     <value name="trim">
                         <shadow type="math_number">
-                            <field name="NUM">3</field>
+                            <field name="NUM">10</field>
                         </shadow>
                     </value>
                 </block>

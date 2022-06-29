@@ -8,10 +8,12 @@ def read(analog_pin,A,B):
     adc.width(ADC.WIDTH_12BIT)
     #if A <= B :
       #  B = 0
-    ##if A <= B*2 :
-        ##B = 0
+    #if A <= B*2 :
+        #B = 0
     T = A*(B / 100)/2
     T = int (T)
+    if T == 0 :
+        T = 1
     B = T
     try:
         a = []   
